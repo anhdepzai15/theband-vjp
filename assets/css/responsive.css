@@ -1,0 +1,64 @@
+@media (min-width: 1024px){
+    
+}
+@media (min-width: 740px) and (max-width: 1023px){
+  
+}
+@media (max-width: 739px){
+    .col-full{
+        width: 100%;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .moblie-search-btn{
+        display: block;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav li .subnav{
+        position: initial;
+       
+    }
+    #nav .subnav a{
+        padding: 0px 36px;
+        background-color: #333;
+        color: #fff;
+    }
+    #contend .name-member{
+        margin-top: 30px;
+    }
+    #contend .member-item{
+        width: 100%;
+    }
+    #contend .avata-img{
+        width: 300px;
+    }
+    .places-item{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-contend{
+        width: 100%;
+    }
+
+    .contact-input{
+        margin-top: 16px;
+    }
+    .contact-email{
+        margin-top: 8px;
+    }
+    .contact-submit{
+        width: 100%;
+    }
+}
